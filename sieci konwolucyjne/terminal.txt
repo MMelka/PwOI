@@ -1,0 +1,21 @@
+
+# Utworzone 4 klasy danych spośród 400 zdjęć zaczerpniętych z prywatnego dysku google:
+
+INFO:tensorflow:Load image with size: 400, num_label: 4, labels: drzewa, kwiaty, liscie, owoce.
+
+
+# ewaluacja na części bazowej:
+Epoch 1/5
+10/10 [==============================] - 31s 111ms/step - loss: 1.2605 - accuracy: 0.4750
+Epoch 2/5
+10/10 [==============================] - 1s 110ms/step - loss: 0.6984 - accuracy: 0.8344
+Epoch 3/5
+10/10 [==============================] - 1s 110ms/step - loss: 0.5811 - accuracy: 0.8813
+Epoch 4/5
+10/10 [==============================] - 1s 110ms/step - loss: 0.5266 - accuracy: 0.9406
+Epoch 5/5
+10/10 [==============================] - 1s 110ms/step - loss: 0.5137 - accuracy: 0.9344
+
+# ewaluacja na części testowej:
+
+3/3 [==============================] - 2s 308ms/step - loss: 0.5362 - accuracy: 0.9125
